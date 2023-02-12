@@ -1,0 +1,17 @@
+decimal(5,2) XXX.XX
+
+decimal(7,4) XXX.XXXX
+
+char(100) -- 'Dinesh' - 255
+varchar(100) -- 'Dinesh' -- Alphanumeric - 8000
+nvarchar(100) -- '$#@!%^ - 8000
+text - 62000 +
+
+CurrencyCode char(3)
+CountryCode char(3)
+Gender char(1)
+
+date - YYYY-MM-DD
+datetime - YYYY-MM-DD hh:mm:ss
+datetime2 - YYYY-MM-DD hh:mm:ss:xxxxxx
+

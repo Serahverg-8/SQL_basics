@@ -1,0 +1,42 @@
+Link to download SQL Server 2019 : https://www.microsoft.com/en-in/sql-server/sql-server-downloads 
+
+	-- Download the free Developer edition
+
+Link to follow the installation instructions : https://www.youtube.com/watch?v=7GVFYt6_ZFM
+
+-- SQL Server 2019 Developer Edition -- Free full fledged edition
+-- SQL Server Management Studio (SSMS)
+
+In case of queries : support@intellipaat.com 
+
+SQL Server is the database engine where we create and maintain Databases
+We create tables inside the DB
+Data are stored inside the tables
+SQL Server Management Studio - User Interface to connect to different SQL Servers
+
+Server/System refers to our own laptop or a desktop where we install SQL Server
+Versions - 2008, 2008R2, 2012, 2014, 2016, 2017, 2019
+Instance is one version of SQL Server
+Each instance is independent of each other
+When you install 2017 SQL Server on a machine that already has 2017, it will try to repair it
+Each instance will be corresponding to different versions of SQL Server
+
+We can assign names to our instances of SQL Server. There are two types of instances :
+	Default Instance : When we do not assign any name. There can be only one default instance per system.
+	When trying to connect to the default instance :  You can connect using the Server Name(System name) itself
+	Named Instance : Instances that have a name attached. All the instances can be named instances(all different names).
+	When trying to connect to the named instance : You can connect using the SystemName\InstanceName
+
+Services.msc gives you the list of installed services on your machine
+
+SQL Server Service will validate if it is an authentic request
+- If yes, then it allows access
+- If no, then it rejects request
+
+SQL Server service is the most important service in the context of MS SQL Server. This is called the heart of SQL Server.
+Each instance of SQL Server has its own SQL Server service.
+SQL Server service is an universal listener, which listens to the connection requests from different sources.
+The SQL Server service start up type should be automatic and the status should be Running
+
+
+
